@@ -1,0 +1,141 @@
+body {
+    background-color: #191a1d;
+    color: white;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.banner-wrapper {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    margin: 0;
+}
+
+.logo {
+    filter: invert(1);
+    padding: 0 20px 0 10px;
+    object-fit: cover;
+    width: 120px; /* width of container */
+    height: 50px; /* height of container */
+    overflow: hidden;
+}
+
+.logo-wrapper img {
+    margin: -15px 0 -5px 0;
+}
+
+.banner-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50px;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.banner-wrapper > .links-wrapper {
+    font-size: 1em;
+    font-weight: 900;
+    text-align: center;
+    margin-left: -150px;
+}
+
+.banner-wrapper > .links-wrapper > .links {
+    width: 200px;
+    font-size: .8em; 
+    text-align: center;
+}
+
+.banner-wrapper > .links-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding-right: 5px;
+    font-size: inherit;
+}
+
+.banner-wrapper > .links-wrapper a:first-child:before {
+    color: #dacb75;
+    font-size: .8em;
+    text-transform: uppercase;
+    content: "explore";
+    display: flex;
+    margin-bottom: -2px;
+}
+
+#spark {
+    padding: 0 150px 0 10px;
+    color: #a9a9a9;
+    font-size: .7em;
+    letter-spacing: 1px;
+}
+
+#spark i {
+    font-size: .8em;
+}
+
+.banner-wrapper > .links-wrapper > .links i {
+    padding-left: 10px;
+}
+
+.banner-item > .dropdown-button i {
+    color: rgb(76, 172, 76);
+    padding: 0 4px;
+    font-size: 1.1em;
+    position: absolute;
+}
+
+.banner-buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    height: 100%;
+    width: auto;
+}
+
+.banner-buttons-wrapper > .banner-item {
+    height: 80%;
+    width: 80px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: unset;
+    border-radius: 2px;
+}
+
+.banner-buttons-wrapper > .banner-item:first-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.banner-buttons-wrapper > .banner-item button {
+    all: unset;
+    height: 35px;
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 2px;
+    color: white;
+    background-color: #36383f;
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.banner-buttons-wrapper > #query-icon {
+    color: #7b7e8b;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.banner-buttons-wrapper > #query-icon i {
+    font-size: 1.1em;
+}

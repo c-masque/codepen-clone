@@ -1,0 +1,28 @@
+.nonsense-wrapper {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(148, 148, 148);
+    background-color: rgb(28 28 29);
+    font-size: .8em;
+    margin-top: -4px;
+}
+
+.nonsense-wrapper > .nonsense-item {
+    height: 100%;
+    width: 25%;
+    border: 1px solid #b3b3b3;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold-nonsense {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
